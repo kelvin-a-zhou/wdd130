@@ -1,0 +1,42 @@
+header h1{
+    color: black;
+    text-align: center;
+}
+img{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+h2{
+    color:white;
+    text-align: center;
+}
+header p{
+    text-align: center;
+    color: white;
+}
+ul{
+    text-align:center;
+}
+footer h1{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    
+}
+body{
+    background-color: orange;
+}
+main p{
+    text-align: center;
+}
+.points{
+    text-align: center;
+    
+}
+.list{
+    list-style-position: inside;
+    text-align: left;
+    margin-left:  33%;
+}
