@@ -42,9 +42,9 @@ header{
     display: grid;
     grid-template-columns: 150px auto;
 }
-nav a :hover{
-    background-color: black;
-    color: brown;
+nav :hover{
+    background-color:rgb(41,84,124);
+    color:rgb(224, 212, 212) ;
     
 }
 .book{
@@ -65,13 +65,13 @@ padding: 30px;
 margin-top: 50px;
 border-radius: 5px;
 }
-.book :hover{
-    background-color:black;
-    color: bisque;
+.msg  :hover{
+    background-color:white;
+    color: black;
 }
-.join :hover{
-    background-color: black;
-    color: bisque;
+.button-box :hover{
+    background-color:white;
+    color: black;
 }
 #background{
     height: 720px;
@@ -150,6 +150,7 @@ footer .Social img{
     margin: 200px 0;
     grid-column: 2/4;
     grid-row: 2/3;
+    width: 100%;
     
     
 }
@@ -200,7 +201,8 @@ margin-top: -100px;
 }
 .home-grid{
     display: grid;
-    grid-template-columns: (1f 1f 1fr);
+    grid-template-columns: 150px auto;
+    grid-template-columns:repeat(1fr 1fr 1fr);
     gap: 20px;
     
     
@@ -217,6 +219,30 @@ margin-top: -100px;
     opacity: .6;
     transform: scale(1.1);
 }
+
+
+
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+h3{
+    color: rgb(33,77,111);
+    font-size: 30px;
+    
+}
+.p1{
+    border: 5px solid ;
+    border-color:rgb(121,197,215);
+    padding: 15px;
+    
+}
+#h1{
+    color: rgb(33,77,111);
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
