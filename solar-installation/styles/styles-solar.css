@@ -70,7 +70,7 @@ h3{
 .container {
     width: 100%;
     height: 350px;
-    background-image: url("/solar-installation/images/showcase.jpg");
+    background-image: url("images/showcase.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 10%;
