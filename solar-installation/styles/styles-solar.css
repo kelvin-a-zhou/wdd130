@@ -28,7 +28,69 @@
     margin: auto;
 }
 
+main h2{
+    margin-top: 4%;
+    color: #0F3A57 !important;
+}
 /*end of portfolio styling*/
+
+/* services styling start
+.content1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+}*/
+
+
+.list {
+    display: inline-block;
+    text-align: left;
+  }
+
+.listings{
+    text-align: center;
+}
+.content2{
+    text-align: center;
+}
+.content1{
+    text-align: center;
+}
+.content3{
+    text-align: center;
+}
+.content3 .list{
+    margin-left: 12%;
+   
+
+   
+}
+.content1 h2{
+    margin-bottom: 3%;
+}
+
+#p-sev{
+    margin-top: 3%;
+    margin-left: 3%;
+    text-align: center;
+    width: 94%;
+}
+
+.content2 h2{
+    margin-bottom: 3%;
+}
+
+.content3 h2{
+    margin-bottom: 3%;
+}
+
+
+
+
+
+/*end of services styling*/
+
 .hero{
     width: 100%;
     height: 400px;
@@ -37,12 +99,8 @@
     background-size: cover;
     margin-top: -5.5%;
     background-position: center;
-    
 }
-main h2{
-    margin-top: 4%;
-    color: #0F3A57 !important;
-}
+
 .hero-content h1{
     font-size: 50px;
     margin-top: 5%;
